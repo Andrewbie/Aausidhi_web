@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://aausidhihealthcare.vercel.app"),
   title: "Aausidhi Healthcare | Quality Medicines, Trusted Care",
   description:
     "Aausidhi Healthcare is a trusted pharmaceutical company providing quality medicines across India. PCD Pharma Franchise, Third-Party Manufacturing and more.",
