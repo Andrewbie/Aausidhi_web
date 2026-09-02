@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #1a5276;
+  --primary-dark: #154360;
+  --primary-light: #2e86c1;
+  --accent: #27ae60;
+  --accent-dark: #1e8449;
+  --accent-light: #2ecc71;
+  --neutral: #f4f6f9;
+  --text-dark: #1c2833;
+  --text-muted: #5d6d7e;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  color: var(--text-dark);
+  background-color: #ffffff;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #1a5276, #27ae60);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Section padding */
+.section-padding {
+  padding: 80px 0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a5276;
+  border-radius: 3px;
+}
+
+/* Smooth hover transitions */
+* {
+  transition-property: color, background-color, border-color, box-shadow, transform, opacity;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+/* Animated underline */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #27ae60;
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Hero gradient */
+.hero-gradient {
+  background: linear-gradient(135deg, #0d2137 0%, #1a5276 50%, #1a7db0 100%);
+}
+
+/* Section title underline */
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #1a5276, #27ae60);
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+/* Placeholder image box */
+.img-placeholder {
+  background: linear-gradient(135deg, #d6eaf8, #d5f5e3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px dashed #aed6f1;
+  color: #5d6d7e;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 12px;
+}
