@@ -13,6 +13,9 @@ export const metadata: Metadata = {
     "Aausidhi Healthcare is a trusted pharmaceutical company providing quality medicines across India. PCD Pharma Franchise, Third-Party Manufacturing and more.",
   keywords:
     "Aausidhi Healthcare, pharma company, PCD franchise, medicines, healthcare India",
+  verification: {
+    google: "FTqetvVfIwa2mD9-SlMSTJJ2eDxwi50YGj8Oqo4ulgQ",
+  },
 };
 
 export default function RootLayout({
