@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   keywords:
     "Aausidhi Healthcare, pharma company, PCD franchise, medicines, healthcare India",
   verification: {
-    google: "FTqetvVfIwa2mD9-SlMSTJJ2eDxwi50YGj8Oqo4ulgQ",
+    google: "l4PDaOm4xvOQDM2mlJg3MCdxIGMrxjseoHWBE-FQRoc",
   },
 };
 
