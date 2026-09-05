@@ -1,6 +1,7 @@
-"use client";
+
 import Link from "next/link";
 import { ArrowRight, CheckCircle, FlaskConical, Shield, Globe, Users } from "lucide-react";
+import ScrollingProducts from "../components/ScrollingProducts";
 
 const stats = [
   { value: "500+", label: "Products" },
@@ -17,9 +18,9 @@ const features = [
 ];
 
 const productCategories = [
-  { title: "Tablets & Capsules", count: "150+ products", color: "from-blue-500 to-blue-700", image: "/images/Limica Plus Tablets.jpeg" },
-  { title: "Syrups & Suspensions", count: "80+ products", color: "from-green-500 to-green-700", image: "/images/Xarodol-plus Suspension.jpeg" },
-  { title: "Injectables", count: "60+ products", color: "from-purple-500 to-purple-700", image: "/images/Xarodol Injection.jpeg" },
+  { title: "Tablets & Capsules", count: "150+ products", color: "from-blue-500 to-blue-700", image: "/images/products/Limica Plus Tablets.jpeg" },
+  { title: "Syrups & Suspensions", count: "80+ products", color: "from-green-500 to-green-700", image: "/images/products/Xarodol-plus Suspension.jpeg" },
+  { title: "Injectables", count: "60+ products", color: "from-purple-500 to-purple-700", image: "/images/products/Xarodol Injection.jpeg" },
   { title: "Ointments & Creams", count: "50+ products", color: "from-orange-500 to-orange-600" },
   { title: "Nutraceuticals", count: "70+ products", color: "from-teal-500 to-teal-700" },
   { title: "Derma Range", count: "40+ products", color: "from-pink-500 to-pink-700" },
@@ -229,6 +230,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ===== SCROLLING PRODUCTS ===== */}
+      <ScrollingProducts />
 
       {/* ===== WHY CHOOSE US ===== */}
       <section className="section-padding bg-white">
