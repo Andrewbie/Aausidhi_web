@@ -35,12 +35,12 @@ const categories = [
     products: [
       { name: "YOGACEF-LB 50mg/5ml D/S", composition: "cefixime 50mg + Lactobaccilus ", pack: "30ml Bottle", mrp: "₹83.00", ptr: "₹" },
       { name: "XAROZYME PLUS 200ML", composition: "Fungal Diastase 50mg + Pepsin 10mg + VIT B-COMPLEX", pack: "200ml Bottle", mrp: "₹135.00", ptr: "₹" },
-      { name: "Ibuprofen Suspension 100mg/5ml", composition: "Ibuprofen 100mg / 5ml", pack: "100ml Bottle", mrp: "₹55.00", ptr: "₹35.00" },
+      { name: "XARODOL-P Syrup", composition: "Aceclofenac 100mg + Paracetamol 250mg / 5ml", pack: "60ml Bottle", mrp: "₹.00", ptr: "₹.00" },
       { name: "Cetirizine Syrup 5mg/5ml", composition: "Cetirizine Hydrochloride 5mg / 5ml", pack: "60ml Bottle", mrp: "₹35.00", ptr: "₹22.00" },
-      { name: "Multivitamin Syrup", composition: "Vitamins & Essential Minerals", pack: "200ml Bottle", mrp: "₹120.00", ptr: "₹85.00" },
-      { name: "Cough Syrup (Dry)", composition: "Dextromethorphan HBr 10mg + CPM 2mg", pack: "100ml Bottle", mrp: "₹85.00", ptr: "₹55.00" },
-      { name: "Iron & Folic Acid Syrup", composition: "Ferrous Ascorbate + Folic Acid", pack: "200ml Bottle", mrp: "₹140.00", ptr: "₹95.00" },
-      { name: "Calcium + Vitamin D3 Syrup", composition: "Calcium Carbonate + Vitamin D3", pack: "200ml Bottle", mrp: "₹110.00", ptr: "₹75.00" },
+      { name: "YOGAVIT  Syrup", composition: "Vitamins & Essential Minerals", pack: "200ml Bottle", mrp: "₹.00", ptr: "₹.00" },
+      { name: "YOREX syrup", composition: "Dextromethorphan HBr 10mg + CPM 2mg + Phenylephrine 5mg ", pack: "100ml Bottle", mrp: "₹.00", ptr: "₹.00" },
+      { name: "Iron & Folic Acid Syrup", composition: "Ferrous Ascorbate + Folic Acid", pack: "200ml Bottle", mrp: "₹1.00", ptr: "₹.00" },
+      { name: "Calcium + Vitamin D3 Syrup", composition: "Calcium Carbonate + Vitamin D3", pack: "200ml Bottle", mrp: "₹.00", ptr: "₹.00" },
     ],
   },
   {
